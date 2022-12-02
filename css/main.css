@@ -1,0 +1,1066 @@
+html, body, .cover {
+    height:100%;
+}
+
+.cover {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url('../img/cover.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin:0 45px;
+}
+
+.cover .cover-title {
+    color:#fff;
+    font-size:60px;
+    font-weight: 700;
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.cover .cover-list {
+    position:absolute;
+    top:58%;
+    right:80px;
+}
+
+.cover .cover-item {
+    display:inline;
+}
+
+.cover .cover-tel {
+    text-decoration: none;
+    color:#fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    top:-2px;
+    transition: color 0.4s linear;
+}
+
+.cover .cover-tel:hover {
+    color:#006D7C;
+}
+
+.cover .fa-brands {
+    transition: opacity 0.4s linear;
+} 
+
+.cover .fa-brands:hover {
+    opacity:0.4;
+} 
+
+.cover .cover-social-icon {
+    color:#fff;
+    font-size:20px;
+    padding-left:15px;
+}
+
+.cover .temperature {
+    position: absolute;
+    right:0;
+    top:150px;
+}
+
+.cover .temperature .temperature-text {
+    color:#203D63;
+    font-weight: 500;
+}
+
+.cover .sun-icon {
+    width:30px;
+    margin-right:4px;
+    color:#203D63;
+}
+
+.cover .temperature .mt-4 {
+    position: relative;
+    padding-right:15px;
+}
+
+.cover .temperature .mt-4::after {
+    content:" ";
+    position: absolute;
+    bottom:0;
+    width:40px;
+    height:1px;
+    background-color: #E5E5E5;
+    top:35px;
+    right:3px;
+    transform: rotate(-40deg);
+}
+
+.header {
+    position: absolute;
+}
+
+.header .navbar .navbar-nav {
+    position: relative;
+    top:-60px;
+    left:221px;
+}
+
+.header .navbar-nav .nav-link {
+    color:#fff;
+    font-size:14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left:30px;
+    transition: color 0.4s linear;
+}
+
+.header .navbar-nav .nav-link.active {
+    color:#00214D;
+}
+
+.header .navbar-nav .nav-link:hover:not(.nav-link.active) {
+    color:#BDA05B;
+}
+
+.cover .dropdown-toggle::after {
+    display: none;
+}
+
+.cover .dropdown .dropdown-toggle {
+    padding:27px 13px 20px 12px;
+    margin-top:-20px;
+    margin-left:28px;
+    font-weight: 500;
+}
+
+.cover .dropdown .dropdown-menu {
+    display: none;
+    border:0;
+    border-radius:0;
+    margin-top:0;
+    min-width:45px;
+    margin-left:28px;
+}
+
+.cover .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.cover .dropdown-toggle:hover {
+    background-color: #006D7C !important;
+    color:#fff !important;
+    transition: all 0.4s linear;
+}
+
+.cover .dropdown-menu:hover{
+    background-color: #006D7C !important;
+    color:#fff !important;
+    transition: all 0.4s linear;
+}
+
+.cover .dropdown-menu:hover .dropdown-item{
+    color:#fff !important;
+}
+
+.cover .dropdown .dropdown-item {
+    font-weight:500;
+    padding:15px 11px 15px;
+}
+
+.cover .dropdown:hover .dropdown-item {
+    background-color: transparent;
+}
+
+.cover .dropdown {
+    position:absolute;
+    margin-top:-183%;
+    right:-80px;
+}
+
+.gallery {
+    position: relative;
+    top:-200px;
+}
+
+.gallery .container {
+    background-color: #F9F9F9;
+    padding:15px 35px;
+}
+
+.gallery .card {
+    border:0;
+    margin:25px 15px;
+}
+
+.gallery .card .card-img {
+    border-radius:0;
+    width:100%;
+    height:380px;
+    object-fit: cover;
+}
+
+.gallery .card-img-overlay .card-title {
+    font-size:26px;
+    padding-top:285px;
+    padding-left:30px;
+}
+
+.gallery .card-img-overlay .card-title::before {
+    content:" ";
+    width:80px;
+    height:2px;
+    background-color:#fff;
+    position:absolute;
+    bottom:35px;
+}
+
+.gallery .card .card-background {
+    width:100%;
+    height:380px;
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+
+.gallery .card-img-overlay .plus-icon {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:50px;
+}
+
+.carousel__viewport {
+    display: none;
+}
+
+.portonovi {
+    margin-top:-200px;
+}
+
+.portonovi .container {
+    padding:45px 0;
+    margin-bottom:-200px;
+}
+
+.portonovi .card {
+    border:0;
+    box-shadow: 3px 3px 40px 1px rgb(4, 3, 3)
+}
+
+.portonovi .card .card-img {
+    border-radius:0;
+    width:100%;
+    height:300px;
+}
+
+.portonovi .card .card-background {
+    width:100%;
+    height:300px;
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.portonovi .card-img-overlay .card-title {
+    font-size:45px;
+    padding-top:90px;
+    padding-left:45px;
+}
+
+.portonovi .card-img-overlay .card-text {
+    padding-left:45px;
+}
+
+.portonovi .card-img-overlay .card-link {
+    position:absolute;
+    top:40%;
+    right:70px;
+    background-color: #fff;
+    color:black;
+    text-decoration: none;
+    padding:12px 35px;
+    font-weight:500;
+    letter-spacing: 1px;
+    transition: all 0.4s linear;
+}
+
+.portonovi .card-img-overlay .card-link:hover {
+    color:#fff;
+    background-color:black;
+}
+
+.footer {
+    background-color: #11315B;
+    padding:250px 0 20px;
+}
+
+.footer .container {
+    padding:0;
+}
+
+.footer .footer-link {
+    color:#fff;
+    text-decoration: none;
+    font-size:14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.footer .bottom-line {
+    background-color:#BDA05B;
+    height:1px;
+    opacity:1;
+}
+
+.footer .footer-logo {
+    margin-top:-30px;
+    margin-left:15px;
+}
+
+.footer .col-md-3 .footer-item {
+    padding-bottom:10px;
+}
+
+.footer .col-md-5 .footer-item {
+    display:inline;
+    padding-right:20px;
+}
+
+.footer .footer-text {
+    color:#fff;
+    letter-spacing: 1px;
+    font-size:14px;
+    font-weight: 500;
+    text-align:right;
+}
+
+.footer .col-md-3 .footer-tel {
+    color:#fff;
+    text-decoration: none;
+    display:block;
+    text-align:right;
+}
+
+.footer .col-md-3 .social-icon {
+    display:inline;
+}
+
+.footer .col-md-3 .social-icons {
+    margin-top:35px;
+    text-align: right;
+}
+
+.footer .col-md-3 .fa-brands {
+    color:#fff;
+    font-size:20px;
+    padding:0 5px;
+}
+
+.footer .footer-link.active {
+    color:#BDA05B;
+}
+
+.footer .footer-link {
+    transition: color 0.4s linear;
+}
+
+.footer .footer-link:hover:not(.footer-link.active) {
+    color:#006D7C;
+}
+
+.footer .footer-tel {
+    transition: color 0.4s linear;
+}
+
+.footer .footer-tel:hover {
+    color:#BDA05B;
+}
+
+.footer .fa-brands {
+    transition: opacity 0.4s linear;
+}
+
+.footer .fa-brands:hover {
+    opacity:0.4;
+}
+
+/* ABOUT CLUB */
+
+.aboutClub {
+    margin-top:-160px;
+    margin-bottom:190px;
+}
+
+.aboutClub .col-md-6 {
+    padding:0;
+}
+
+.aboutClub .card {
+    border:0;
+    border-radius:0;
+    width:100%;
+}
+
+.aboutClub .img-fluid {
+    width:100%;
+}
+
+.aboutClub .card .card-text {
+    color: #3E3E3E;
+    text-align:justify;
+    font-size:14px;
+}
+
+.aboutClub .card .card-link {
+    text-decoration: none;
+    color: #3E3E3E;
+    background-color: #E8E8E8;;
+    font-size:14px;
+    font-weight: 700;
+    padding:12px 0;
+    display:block;
+    width:100%;
+    text-align: center;
+    transition: all 0.4s linear;
+}
+
+.aboutClub .card .card-link:hover {
+    color:#E8E8E8;
+    background-color: #3E3E3E;;
+}
+
+.aboutClub .card .card-body {
+    max-height:333px;
+    padding:20px;
+}
+
+.aboutClub .aboutClub-title {
+    background-color: #006D7C;
+    margin:0;
+    padding:10px 0;
+}
+
+.aboutClub .col-md-6 .card .row {
+    margin:0;
+}
+
+@media (max-width: 1199.98px) { 
+    
+    .header .navbar .navbar-nav {
+        left:-50px;
+    }
+    
+    .header .navbar-nav .nav-link {
+        padding-left:14px;
+    }
+
+    .gallery {
+        margin:0 110px;
+    }
+    
+    .gallery .container {
+        padding:10px 25px;
+    }
+    
+    .gallery .card {
+        margin:15px 5px;
+    }
+    
+    .gallery .card .card-img {
+        height:340px;
+    }
+    
+    .gallery .card-img-overlay .card-title {
+        padding-top:240px;
+    }
+    
+    .gallery .card .card-background {
+        height:340px;
+    }
+    
+    .portonovi {
+        margin-left:110px;
+        margin-right:110px;
+    }
+    
+    .portonovi .card .card-img {
+        height:280px;
+    }
+    
+    .portonovi .card .card-background {
+        height:280px;
+    }
+    
+    .portonovi .card-img-overlay .card-title {
+        font-size:35px;
+    }
+    
+    .portonovi .card-img-overlay .card-link {
+        top:37%;
+    }
+    
+    .footer .container {
+        padding:0 110px;
+    }
+    
+    .footer .footer-link {
+        font-size:10px;
+    }
+    
+    .footer .footer-logo {
+        margin-top:-30px;
+        margin-left:-40px;
+    }
+    
+    .footer .col-md-5 .footer-item {
+        padding-right:2px;
+    }
+    
+    .footer .footer-text {
+        font-size:10px;
+        letter-spacing: 0;
+        padding-top:7px;
+    }
+
+    .footer .footer-tel {
+        font-size:12px;
+    }
+    
+    .footer .col-md-3 .fa-brands {
+        padding:0 2px;
+    }  
+
+    /* ABOUT CLUB */
+    
+    .aboutClub .card .card-text {
+        font-size:13px;
+    }
+    
+    .aboutClub .card .card-link {
+        font-size:13px;
+        padding:12px 0;
+    }
+    
+    .aboutClub .card .card-body {
+        padding:12px;
+    }
+    
+    .aboutClub .pe-3, .aboutClub .ps-3 {
+        padding:0 38px;
+    }
+ }
+
+@media (max-width: 991.98px) { 
+
+    .header .navbar .navbar-nav {
+        left:-50px;
+    }
+    
+    .header .navbar-nav .nav-link {
+        font-size:11px;
+        padding:0 0 0 10px;
+        letter-spacing: 0;
+    }
+    
+    .gallery .card {
+        margin:15px 5px;
+    }
+    
+    .gallery .card .card-img {
+        height:220px;
+    }
+    
+    .gallery .card-img-overlay .card-title {
+        padding-top:150px;
+        font-size:18px;
+    }
+    
+    .gallery .card .card-background {
+        height:220px;
+    }
+
+    .gallery .card-img-overlay .card-title::before {
+        width:55px;
+        bottom:25px;
+    }
+    
+    .portonovi .card .card-img {
+        height:200px;
+    }
+    
+    .portonovi .card .card-background {
+        height:200px;
+    }
+    
+    .portonovi .card-img-overlay .card-title {
+        font-size:20px;
+        padding-top:60px;
+        padding-left:5px;
+    }
+
+    .portonovi .card-img-overlay .card-text {
+        padding-left:5px;
+        font-size: 12px;
+    }
+    
+    .portonovi .card-img-overlay .card-link {
+        top:35%;
+        right:20px;
+        padding:6px 20px;
+        letter-spacing: 0;
+    }
+    
+    .footer .footer-link {
+        font-size:10px;
+        letter-spacing: 0;
+    }
+
+    .footer .col-md-3 .footer-item {
+        padding:0;
+    }
+
+    .footer .col-md-3 .footer-text {
+        margin:0;
+    }
+
+    .footer .col-md-3 .footer-tel {
+        margin-top:5px;
+    }
+    
+    .footer .footer-logo {
+        margin-top:-20px;
+        margin-left:-30px;
+        width:180px;
+    }
+    
+    .footer .col-md-5 .footer-item {
+        padding-right:1px;
+    }
+    
+    .footer .col-md-3 .fa-brands {
+        padding:0 0 0 1px;
+        font-size:14px;
+    }
+
+    .footer .col-md-5 .footer-link {
+        font-size:9px;
+    }
+
+    .footer .col-md-7 .footer-text {
+        font-size:10px;
+    }
+
+    /* ABOUT CLUB */
+
+    .aboutClub .card .card-text {
+        font-size:11px;
+        line-height: 13px;
+    }
+    
+    .aboutClub .card .card-link {
+        font-size:11px;
+        padding:8px 0;
+        margin-top:-5px;
+    }
+    
+    .aboutClub .card .card-body {
+        padding:8px;
+    }
+    
+    .aboutClub .pe-3, .aboutClub .ps-3 {
+        padding:0 29px;
+    }
+ }
+
+@media (max-width: 767.98px) { 
+
+    .header .navbar-logo {
+        width:170px;
+        margin-left:40px;
+    }
+
+    .header {
+        width:100%;
+    }
+
+    .header .navbar-toggler {
+       margin-right:50px;
+    }
+
+    .header .navbar-nav {
+        margin-top:55px;
+        margin-left:100px;
+        background-color: rgba(0,0,0,0.5);
+        text-align: center;
+        padding:5px 0;
+    }
+
+    .header .nav-item {
+        padding-top:5px;
+    }
+
+    .cover .cover-title {
+        font-size:40px;
+        top:48%;
+    }
+
+    .gallery {
+        margin:0 70px;
+    }
+    
+    .gallery .card .card-img {
+        height:250px;
+    }
+    
+    .gallery .card-img-overlay .card-title {
+        padding-top:180px;
+    }
+    
+    .gallery .card .card-background {
+        height:250px;
+    }
+
+    .portonovi {
+        margin-left:70px;
+        margin-right:70px;
+    }
+
+    .portonovi .card .card-img {
+        height:180px;
+    }
+    
+    .portonovi .card .card-background {
+        height:180px;
+    }
+    
+    .portonovi .card-img-overlay .card-title {
+        font-size:16px;
+        padding-top:55px;
+    }
+
+    .portonovi .card-img-overlay .card-text {
+        font-size: 10px;
+    }
+    
+    .portonovi .card-img-overlay .card-link {
+        top:36%;
+        padding:4px 14px;
+        font-size:14px;
+    }
+
+    .footer .container {
+        padding:0 60px;
+        text-align: center;
+        margin-top:-70px;
+    }
+    
+    .footer .footer-link {
+        font-size:14px;
+        letter-spacing: 1px;
+    }
+
+    .footer .footer-list-2 {
+        margin-top:-15px;
+    }
+    
+    .footer .footer-logo {
+        margin:-10px auto 10px;
+    }
+    
+    .footer .col-md-3 .footer-text {
+        font-size:14px;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height:15px;
+    }
+
+    .footer .col-md-3 .footer-tel {
+        font-size:14px;
+        text-align: center;
+    }
+
+    .footer .col-md-3 .social-icons {
+        font-size:14px;
+        text-align: center;
+    }
+    
+    .footer .col-md-3 .fa-brands {
+        padding:0 5px;
+        font-size:20px;
+    }
+
+    .footer .col-md-5 .footer-item {
+        padding-right:10px;
+    }
+
+    .footer .col-md-5 .footer-link {
+        font-size:12px;
+    }
+
+    .footer .col-md-7 .footer-text {
+        font-size:10px;
+        text-align: center;
+    }
+
+    /* ABOUT CLUB */
+
+    .aboutClub {
+        margin-top:-200px;
+    }
+    
+    .aboutClub .col-md-6 {
+        padding:0;
+    }
+
+    .aboutClub .card {
+        border-bottom:1px solid #006D7C;
+    }
+    
+    .aboutClub .card .img-fluid {
+        max-height: 280px;
+        object-fit:cover;
+        object-position: center;
+    }
+    
+    .aboutClub .card .card-text {
+        font-size:14px;
+        line-height:16px;
+    }
+
+    .aboutClub .card .card-link {
+        font-size:14px;
+        padding:12px 0;
+        display:block;
+        width:50%;
+        margin:0 auto;
+    }
+    
+    .aboutClub .card .card-body {
+        max-height:333px;
+        padding:20px;
+    }
+
+    .aboutClub .pe-3 {
+        padding:0 35px !important;
+    }
+
+    .aboutClub .ps-3 {
+        padding:0 35px !important;
+        margin-top:30px;
+    }
+}
+
+@media (max-width: 575.98px) { 
+
+    .cover {
+        margin:0;
+    }
+    
+    .cover .cover-title {
+        font-size:22px;
+        top:45%;
+        left:50%;
+    }
+    
+    .cover .cover-list {
+        position:absolute;
+        top:61%;
+        right:40px;
+    }
+    
+    .cover .cover-tel {
+        letter-spacing:0;
+        font-size:14px;
+    }
+    
+    .cover .cover-social-icon {
+        font-size:14px;
+    }
+    
+    .cover .temperature {
+        top:190px;
+        background-color: rgba(255,255,255,0.4)
+    }
+
+    .header .navbar-toggler {
+        margin-right:35px;
+     }
+    
+    .header .navbar .navbar-nav {
+        top:-50px;
+        left:-105px;
+        width:85%;
+    }
+    
+    .header .navbar-nav .nav-link {
+        font-size:12px;
+        letter-spacing:0;
+        padding-left:0;
+    }
+
+    .header .navbar-logo {
+        width:110px;
+        margin-left:-15px;
+        margin-right:-25px;
+        margin-top:-10px;
+    }
+
+    .cover .dropdown {
+        right:0;
+        left:172px;
+        min-width:40px;
+    }
+    
+    .cover .dropdown .dropdown-toggle {
+        padding:10px;
+        margin-top:-91px;
+        margin-left:0;
+        margin-right:40px;
+        min-width:40px;
+        background-color: rgba(255,255,255,0.4) !important;
+    }
+
+    .cover .dropdown .dropdown-toggle:hover {
+        background-color: #006D7C !important;
+    }
+    
+    .cover .dropdown .dropdown-menu {
+        min-width:40px;
+        margin-left:0;
+        background-color: rgba(255,255,255,0.4) !important;
+    }
+
+    .cover .dropdown .dropdown-menu:hover {
+        background-color: #006D7C !important;
+    }
+    
+    .cover .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .cover .dropdown .dropdown-item {
+        padding:0 0 0 10px;
+    }
+
+    .gallery {
+        top:-150px;
+        margin:0 20px;
+    }
+    
+    .gallery .container {
+        padding:0 10px;
+    }
+    
+    .gallery .card .card-img {
+        height:250px;
+    }
+    
+    .gallery .card-img-overlay .card-title {
+        font-size:16px;
+        padding-top:180px;
+        padding-left:5px;
+    }
+    
+    .gallery .card-img-overlay .card-title::before {
+        width:50px;
+        bottom:20px;
+    }
+    
+    .gallery .card .card-background {
+        height:250px;
+    }
+    
+    .gallery .card-img-overlay .plus-icon {
+        width:40px;
+    }
+
+    .portonovi {
+        margin:-170px 0 0;
+    }
+    
+    .portonovi .card .card-img {
+        height:200px;
+    }
+    
+    .portonovi .card .card-background {
+        height:200px;
+    }
+    
+    .portonovi .card-img-overlay .card-title {
+        font-size:16px;
+        padding-top:35px;
+        padding-left:0;
+    }
+    
+    .portonovi .card-img-overlay .card-text {
+        padding-left:0;
+        font-size:10px;
+    }
+    
+    .portonovi .card-img-overlay .card-link {
+        top:53%;
+        right:20px;
+        padding:10px;
+        letter-spacing:0;
+        font-size: 12px;
+    }
+    
+    .footer .footer-link {
+        font-size:12px;
+        letter-spacing: 0;
+    }
+    
+    .footer .footer-logo {
+        width:110px;
+    }
+    
+    .footer .col-md-3 .footer-text {
+        font-size:12px;
+        letter-spacing: 0;
+    }
+
+    .footer .col-md-3 .footer-tel {
+        font-size:12px;
+    }
+    
+    .footer .col-md-3 .fa-brands {
+        padding:0 1px;
+        font-size:15px;
+    }
+
+    .footer .col-md-5 .footer-item {
+        padding-right:0;
+        display: block;
+    }
+
+    .footer .col-md-5 .footer-link {
+        font-size:14px;
+    }
+
+    .footer .col-md-7 .footer-text {
+        font-size:14px;
+    }
+
+    /* ABOUT CLUB */
+    
+    .aboutClub .card .img-fluid {
+        max-height: 200px;
+    }
+
+    .aboutClub .card .card-link {
+        font-size:9px;
+        padding:12px 2px;
+        width:45%;
+    }
+    
+    .aboutClub .card .card-body {
+        padding:10px;
+    }
+
+    .aboutClub .pe-3 {
+        padding:0 10px !important;
+    }
+
+    .aboutClub .ps-3 {
+        padding:0 10px !important;
+        margin-top:20px;
+    }
+    
+ }
